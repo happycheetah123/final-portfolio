@@ -1,23 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import { useState } from 'react';
+import Button from 'react-bootstrap/Button';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Navigation from "./components/NavBar";
+import About from "./components/About";
+import ProjectCard from './components/ProjectCard';
+import Footer from './components/Footer';
+
+
+// TODO: CREATE JSON FILE AND IMPORT
 
 function App() {
   return (
     <div className="App">
+      <Navigation></Navigation>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>I’m Happy Cheetah — a visual designer who integrates a passion for solving problems and creating art into design, with intention of creating accessible products for everyone.</h1>
       </header>
+      <body>
+        <About></About>
+        <ProjectCard></ProjectCard>
+        <Footer></Footer>
+      </body>
     </div>
   );
 }
