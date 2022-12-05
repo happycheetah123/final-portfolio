@@ -16,6 +16,29 @@ code {
   width: 100vw;
 }
 
+.About {
+  /* display: flex; */
+  justify-content: center;
+}
+
+.AboutHeader {
+  width: 33vw;
+}
+
 h1 {
   padding: 50px;
+}
+
+.sectionHeader {
+  padding: 10px;
+}
+
+.ProjectData {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card {
+  margin: 10px;
 }

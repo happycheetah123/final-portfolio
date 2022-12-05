@@ -1,0 +1,26 @@
+[
+    {
+      "name": "An Interface With Problems: Thermostats",
+      "image": "images/personas.png",
+      "link": "https://happycheetah123.github.io/personas/",
+      "description": "Personas and storyboarding give this project a framework of a problem that can be used for further design work to come up with a solution for creating simpler and more user-friendly thermostats."
+    },
+    {
+        "name": "Responsive Redesign",
+        "image": "images/sevenstars.png",
+        "link": "https://happycheetah123.github.io/responsive-redesign/",
+        "description": "Seven Stars Bakery is a staple bakery in Rhode Island, and I was able to identify multiple usability problems with their site. Thus, I visually redesigned the app with an entirely new style guide, created lofi and hifi prototypes, and eventually built out a revamped website."
+    },
+    {
+        "name": "Heyfood: Iterative Design",
+        "image": "images/heyfood.png",
+        "link": "https://sillyduck921.github.io/iterative-design/",
+        "description": "To understand the process of design (brainstorming, prototyping, critiquing, and user testing), we chose a startup whose mission we resonated with and designed their product."
+    },
+    {
+        "name": "Fantasy Football Pick'em",
+        "image": "images/fantasy.png",
+        "link": "https://happycheetah123.github.io/development/",
+        "description": "The goal and value of the application is for users to be able to select from a dashboard of NFL players to add to their fantasy football wishlist. Built in react, I considered usabilitiy principles by adding filtering and sorting features. This application also features an aggregator, allowing users to add players to a cart while keeping track of the cart's total value."
+    }
+  ]

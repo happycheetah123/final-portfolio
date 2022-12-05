@@ -1,20 +1,23 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import React from "react";
 
-function ProjectCard() {
-  return (
-    <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="images/hi.jpeg" />
-      <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
-      </Card.Body>
-    </Card>
-  );
+class ProjectCard extends React.Component {
+    render() {
+    return(
+        <Card className='card' style={{ width: '18rem' }}>
+        <Card.Img variant="top" src={this.props.image} />
+        <Card.Body>
+          <Card.Title>{this.props.name}</Card.Title>
+          <Card.Text>{this.props.description}</Card.Text>
+          <a href={this.props.link} target="_blank" rel='noreferrer'>
+          <Button variant="primary">Take a Look!</Button>
+          </a>
+        </Card.Body>
+      </Card>
+    );
+    }
+
 }
 
 export default ProjectCard;
