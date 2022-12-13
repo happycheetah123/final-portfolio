@@ -27,6 +27,7 @@ code {
 
 h1 {
   padding: 50px;
+  width: 45vw;
 }
 
 .sectionHeader {
@@ -36,9 +37,39 @@ h1 {
 .ProjectData {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content:center;
+  align-items: center;
+
 }
 
-.card {
-  margin: 10px;
+.ProjectCard {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-evenly; */
+  align-items: center;
+  height: 70vh;
+  width: 22%;
+  flex-wrap: wrap;
+  /* background-color: aliceblue; */
+}
+
+.ProjectImage {
+  width: 100px;
+  margin: 35px;
+}
+
+.ProjectTitle {
+  margin-bottom: 35px;
+}
+
+.ProjectBody {
+  width: 70%;
+}
+
+.footer {
+  padding: 10px;
+}
+
+.home {
+  display: flex;
 }
