@@ -13,11 +13,11 @@ function App() {
       <Navigation></Navigation>
       <header id="home" className="App-header">
         <div className='home'>
-          <h1>Hi! I’m Happy Cheetah, a visual designer who integrates a 
+          <h1 className='welcome'>Hi! I’m Happy Cheetah, a visual designer who integrates a 
           passion for solving problems and creating art into design, 
           with intention of creating accessible products for everyone.
          </h1>
-          <img src={process.env.PUBLIC_URL+'/images/me.png'} alt='me'></img>
+          <img className='me' src={process.env.PUBLIC_URL+'/images/me.png'} alt='me'></img>
         </div>
 
       </header>
