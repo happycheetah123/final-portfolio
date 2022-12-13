@@ -17,12 +17,22 @@ code {
 }
 
 .About {
-  /* display: flex; */
+  display: flex;
+  flex-direction: column;
   justify-content: center;
+  padding-top: 10vh;
+  height: 50vh;
+  font-size:1.5vw;
+  /* width: 50vw; */
+  align-items:center;
+}
+
+.Accordian {
+  width: 80vw;
 }
 
 .AboutHeader {
-  width: 33vw;
+  width: 50vw;
 }
 
 h1 {
@@ -32,49 +42,66 @@ h1 {
 
 .sectionHeader {
   padding: 10px;
+  padding-top: 10vh;
 }
 
 .ProjectData {
   display: flex;
   flex-wrap: wrap;
-  justify-content:center;
+  justify-content:space-evenly;
   align-items:baseline;
-  height: 100vh;
-
-
+  height: auto;
+  /* background-color: aliceblue; */
 }
 
 .ProjectCard {
   display: flex;
   flex-direction: column;
-  /* justify-content: space-evenly; */
+  justify-content: space-evenly;
   align-items: center;
-  width: 22%;
+  width: 50vw;
   flex-wrap: wrap;
-  /* background-color: aliceblue; */
+  min-width: 250px;
+  padding-bottom: 5vh;
 }
 
 .ProjectImage {
-  width: 100px;
-  margin: 35px;
+  height: 4vw;
+  max-width: 5vw;
+  /* margin: 25px; */
 }
 
 .ProjectTitle {
-  margin-bottom: 35px;
-  width: 20vw;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  /* width: 20vw; */
   /* background-color: aliceblue; */
-  height: 10vh;
+  /* height: 10vh; */
 }
 
 .ProjectBody {
-  width: 20vw;
-  font-size:1.2vw;
+  width: 33vw;
+  /* font-size:1.4vw; */
   /* background-color: aliceblue; */
-  text-align:justify;
+  text-align:center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
 }
 
 .footer {
-  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 10vh;
+  /* height: 80vh; */
+  font-size:1.5vw;
+  /* width: 50vw; */
+  align-items:center;
+  /* background-color: aliceblue; */
+  flex-wrap: wrap;
+  padding-left: 25vw;
+  padding-right: 25vw;
 }
 
 .home {
@@ -87,7 +114,22 @@ h1 {
   /* object-fit: cover; */
 }
 
+.brown {
+  height: 3vw;
+}
+
 .welcome {
   font-size:3vw;
   width: 50vw;
+}
+
+.icon {
+  height: 5vw;
+}
+
+.icons {
+  margin-top: 5vh;
+  display: flex;
+  justify-content: space-between;
+  width: 20vw;
 }

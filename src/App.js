@@ -6,19 +6,31 @@ import About from "./components/About";
 import ProjectCard from './components/ProjectCard';
 import Footer from './components/Footer';
 import projectData from "./assets/project-data.json";
+import Nav from 'react-bootstrap/Nav';
+
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" id="home">
       <Navigation></Navigation>
-      <header id="home" className="App-header">
+      <header className="App-header">
         <div className='home'>
-          <h1 className='welcome'>Hi! I’m Happy Cheetah, a visual designer who integrates a 
+          <h1 className='welcome'>Ciao! I’m a visual designer at Brown University 
+          <img className='brown' src={process.env.PUBLIC_URL+'/images/brownu.png'} alt='me'></img>
+
+          who integrates a 
           passion for solving problems and creating art into design, 
-          with intention of creating accessible products for everyone.
+          with the intention of creating accessible products for everyone.
          </h1>
-          <img className='me' src={process.env.PUBLIC_URL+'/images/me.png'} alt='me'></img>
+         <div>
+         <img className='me' src={process.env.PUBLIC_URL+'/images/me.png'} alt='me'></img>
+         </div>
+
         </div>
+        <Nav.Link href="#about">
+        <img className='icon' src={process.env.PUBLIC_URL+'/images/downarrow.gif'} href="#about" alt='down arrow'></img>
+        </Nav.Link>
+
 
       </header>
       <body id="about">

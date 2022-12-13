@@ -9,7 +9,7 @@ class ProjectCard extends React.Component {
             <a className='ProjectTitle' href={this.props.link} target="_blank" rel='noreferrer'>
                 <Button variant="outline-dark">{this.props.name}</Button>
             </a>
-            <h5 className='ProjectBody'>{this.props.description}</h5>
+            <p className='ProjectBody'>{this.props.description}</p>
 
         </div>
 

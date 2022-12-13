@@ -6,7 +6,7 @@ import React from "react";
 class Navigation extends React.Component {
     render() {
         return(
-            <Navbar bg="light" expand="lg" sticky="top">
+            <Navbar variant="dark" bg="dark" expand="lg" sticky="top">
             <Container>
               <Navbar.Brand href="#home">happycheetah123</Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
